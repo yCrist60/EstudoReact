@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -16,6 +16,39 @@ function App() {
        </p>
        <p>O resultado acima é{(valor1 + valor2) % 2 === 0 ? " par" : " impar" }{""}</p>
    </div>
+  );
+}
+
+
+export default App;
+*/
+// ------------------------------------------------------
+/*function App() {
+  let styles = {
+    backgroundColor:"#f00",
+    color: "#fff",
+    display: "flex",
+    flex: 1,
+    height: "100vh",
+  };
+}
+
+return (
+  <div style={styles}>
+    <p>Veja o Background</p>
+  </div>
+)*/
+// ----------------------------------------------
+
+import { useState } from "react";
+function App() {
+  const [n, setN] = useState (1);
+
+  return (
+    <div>
+      <p>{n}</p>
+      <button onClick={()=>setN(n + 1)}>Clique</button>
+    </div>
   );
 }
 
