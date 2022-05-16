@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(184, 104, 104);
+}
+
+.header img {
+    min-width: 20%;
+    max-width: 50%;
+}
+
+.header h1{
+    margin:20px 2px 5px;
+    width: 20vw;
+    text-align: flex;
+    margin-right: 600px;
+    
+}
+
+.header h2{
+    width: 16vw;
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    direction: row;
+}
+
+.container .mensagens{
+    width: 30vw;
+    padding:20px;
+    margin:5px;
+    height: 70vh;
+    background-color: #ff33;
+}
+
+.container .conteudo{
+    width: 70vw;
+    padding:20px;
+    margin:5px;
+}
